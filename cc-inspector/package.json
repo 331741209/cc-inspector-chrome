@@ -1,0 +1,32 @@
+{
+  "author": "cc-plugin",
+  "description": "cocos creator plugin",
+  "devDependencies": {
+    "@types/chrome": "0.0.133",
+    "@types/fs-extra": "9.0.1",
+    "@types/kind-of": "^6.0.0",
+    "@types/lodash": "^4.14.176",
+    "@types/node": "16.11.12",
+    "@types/uuid": "^8.3.1",
+    "@xuyanfeng/cc-ui": "file:.yalc/@xuyanfeng/cc-ui",
+    "cc-plugin": "file:.yalc/cc-plugin"
+  },
+  "name": "cc-plugin-demo",
+  "scripts": {
+    "installForce": "yarn install --force",
+    "ccp-pack-v2": "cc-plugin pack cp-v2",
+    "ccp-pack-v3": "cc-plugin pack cp-v3",
+    "ccp-pack-web": "cc-plugin pack web",
+    "ccp-pack-chrome": "cc-plugin pack chrome",
+    "ccp-serve-v2": "cc-plugin serve cp-v2",
+    "ccp-serve-v3": "cc-plugin serve cp-v3",
+    "ccp-serve-web": "cc-plugin serve web",
+    "ccp-serve-chrome": "cc-plugin serve chrome"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "tiny-emitter": "2.1.0",
+    "uuid": "^8.3.2"
+  }
+}

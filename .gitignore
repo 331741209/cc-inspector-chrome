@@ -3,3 +3,11 @@ CocosCreatorInspector/src/build
 /source/artifacts/
 /cc-inspector-v1.2/
 /test/
+
+cc-inspector/node_modules/
+cc-inspector/yalc.lock
+cc-inspector/chrome/
+cc-inspector/dist/
+cc-inspector/yarn-error.log
+cc-inspector/chrome.zip
+cc-inspector/chrome.crx
